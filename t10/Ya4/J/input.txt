@@ -1,0 +1,6 @@
+0 yes yes
+q
+a = 1 0h
+b = 1 0h
+c = 1 0h
+1
