@@ -31,6 +31,7 @@ def main():
 
         ptr2 = ptr1
         while ptr2 < len(seq1):
+            # !!! Incorrect condition. Read task carefully.
             if seq1[ptr2] / seq1[ptr1] <= k:
                 ctr1 += dict1[seq1[ptr2]]
                 div1 *= fact(dict1[seq1[ptr2]])
